@@ -100,3 +100,42 @@ nav li a {
     flex-direction: column;
   }
 }
+
+/* main style */
+
+.main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* teams stlye */
+.teams-conatiner {
+  display: flex;
+  align-items: center;
+}
+
+.teams-img-container {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.team-contant {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.team-contant-title {
+  font-size: 2.8rem;
+}
+
+.team-contant-title .quick-list {
+  color: #727272;
+  font-weight: 500;
+}
+
+.text-feature {
+  color: #ff900e;
+  font-weight: 700;
+}
